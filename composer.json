@@ -1,0 +1,21 @@
+{
+    "name": "matthiasweb/wpdb-batch",
+    "description": "WordPress $wpdb batch queries",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Günter",
+            "email": "support@matthias-web.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MatthiasWeb\\WpdbBatch\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    }
+}
